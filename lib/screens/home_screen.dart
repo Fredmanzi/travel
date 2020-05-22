@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.bold),
             ),
           ),
-          SizedBox(height: 20.0),
+          SizedBox(height: 10.0),
           Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: _icons
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   )
                   .toList()
           ),
-          SizedBox(height:20.0),
+          SizedBox(height:10.0),
           DestinationCarousel(),
         ],
       )),
