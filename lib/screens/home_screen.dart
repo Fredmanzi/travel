@@ -53,7 +53,8 @@ class _HomeScreenState extends State<HomeScreen> {
               children: _icons
                   .asMap()
                   .entries
-                  .map((MapEntry map) => _buildIcon(map.key)))
+                  .map((MapEntry map) => _buildIcon(map.key),).toList()
+          )
         ],
       )),
     );
